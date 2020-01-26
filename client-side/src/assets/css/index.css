@@ -1,0 +1,95 @@
+.md,
+.ios {
+  --ion-font-family: "Work Sans", "Raleway", "Montserrat", "sans-serif";
+}
+.menu-title ion-title {
+  font-family: "Cookie", cursive;
+  font-size: 1.8em;
+  font-style: italic;
+}
+ion-card,
+.MuiPaper-root {
+  border-radius: 0 !important;
+}
+ion-title,
+ion-toolbar,
+ion-header {
+  --ion-background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+input[type="file"] {
+  display: none;
+}
+.file-upload-button {
+  border: 1.5px solid #ced4da;
+  display: block;
+  max-width: 100%;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  color: black;
+}
+.file-upload-button .file-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.MuiButton-contained.reset-btn,
+.MuiButton-contained.save-btn {
+  width: calc(50% - 8px) !important;
+  font-size: 17px !important;
+  padding: 3px !important;
+}
+/* Observation View style */
+ion-page.ion__home-container {
+  position: relative;
+}
+ion-popover ion-list {
+  padding: 10px;
+  font-size: 18px !important;
+  text-align: center !important;
+}
+.species-data-container {
+  position: relative;
+}
+ion-card-header {
+  width: 100%;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-family: "Raleway";
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+ion-card-header .species-name::first-letter,
+.species-image {
+  height: 275px;
+  width: 100%;
+  max-height: 275px;
+  object-fit: cover;
+}
+.detail-modal {
+  font-size: 1em;
+  font-family: "Raleway" !important;
+}
+.detail-modal p {
+  font-size: 1.2em !important;
+}
+.fa-map-marked-alt,
+.fa-info-circle,
+.fa-expand {
+  cursor: pointer;
+  font-size: 24px;
+}
+.map-info-icon {
+  z-index: 99999 !important;
+}
+.fa-map-marked-alt:focus,
+.fa-map-marked-alt:hover {
+  color: #ff726f;
+}
+.fa-info-circle:focus,
+.fa-info-circle:hover {
+  color: #00c3e3;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "BirdWatchObservation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "io.birdwatch.starter",
+  "appName": "BirdWatchObservation",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
